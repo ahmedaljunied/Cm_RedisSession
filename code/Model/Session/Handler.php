@@ -29,11 +29,11 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-require_once BP . '/lib/Cm/RedisSession/Handler/ConfigInterface.php';
-require_once BP . '/lib/Cm/RedisSession/Handler/LoggerInterface.php';
-require_once BP . '/lib/Cm/RedisSession/Handler.php';
-require_once BP . '/lib/Cm/RedisSession/ConnectionFailedException.php';
-require_once BP . '/lib/Cm/RedisSession/ConcurrentConnectionsExceededException.php';
+require_once BP . '/app/code/local/Cm/RedisSession/lib/src/Cm/RedisSession/Handler/ConfigInterface.php';
+require_once BP . '/app/code/local/Cm/RedisSession/lib/src/Cm/RedisSession/Handler/LoggerInterface.php';
+require_once BP . '/app/code/local/Cm/RedisSession/lib/src/Cm/RedisSession/Handler.php';
+require_once BP . '/app/code/local/Cm/RedisSession/lib/src/Cm/RedisSession/ConnectionFailedException.php';
+require_once BP . '/app/code/local/Cm/RedisSession/lib/src/Cm/RedisSession/ConcurrentConnectionsExceededException.php';
 
 class Cm_RedisSession_Model_Session_Handler extends \Cm\RedisSession\Handler
 {
